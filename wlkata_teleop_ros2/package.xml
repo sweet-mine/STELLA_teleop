@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>wlkata_teleop</name>
+  <version>2.1.2</version>
+  <description>The wlkata_teleop package</description>
+  <maintainer email="lab@ntrex.co.kr">ntrex</maintainer>
+  <license>BSD</license>
+  
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
